@@ -1,0 +1,65 @@
+body {
+  overflow: hidden;
+}
+#bg {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: var(--modal-overlay-color);
+  z-index: 1103;
+}
+#s {
+  margin: 0.5rem;
+  width: calc(100% - 1rem);
+}
+#c {
+  margin: 0.5rem;
+  width: calc(100% - 1rem);
+}
+.top {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  z-index: 1102;
+}
+.box {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 350px;
+  height: 100%;
+  max-height: 250px;
+  position: fixed;
+  background: var(--back-color);
+  overflow: auto;
+  border-radius: 0.125rem;
+  text-align: center;
+}
+.blank {
+  height: 3.625rem;
+}
+.right {
+  float: right;
+}
+.button {
+  background: var(--back-color) !important;
+  border: 0.0625rem solid var(--header-border-color) !important;
+}
+.button:hover {
+  background: var(--header-hover-back-color) !important;
+}
+.icon-pan {
+  background-image: url("./pan.svg");
+}
+.icon-pen {
+  background-image: url("./pen.svg");
+}
+.icon-adj {
+  background-image: url("./adj.svg");
+}
+.icon-x {
+  background-image: url("./x.svg");
+}

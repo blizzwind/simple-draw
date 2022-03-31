@@ -1,0 +1,14 @@
+{
+  "name": "simple-draw",
+  "version": "1.0.0",
+  "description": "A simple drawing app!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "blizzwind",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^18.0.1"
+  }
+}

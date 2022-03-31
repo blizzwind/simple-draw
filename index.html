@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<title>Simple Draw</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="./icon.svg">
+<link rel="stylesheet" href="./mini.css">
+<link rel="stylesheet" href="./styles.css">
+<body>
+<div class="top"><a id="pan" class="button" onclick="pan()"><span class="icon-pan"></span></a><a id="pen" class="button" onclick="pen()"><span class="icon-pen"></span></a><a id="adj" class="button" onclick="adj()"><span class="icon-adj"></span></a></div>
+<div id="bg"><div class="box"><a class="button right" onclick="x()"><span class="icon-x"></span></a><div class="blank"></div><input id="s" type="range" min="1" max="100" value="1"><input id="c" type="color" value="#000000"></div></div>
+<script src="./p5js.js"></script>
+<script src="./renderer.js"></script>
+</body>
+</html>
