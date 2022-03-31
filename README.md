@@ -3,6 +3,7 @@ A simple drawing app!
 
 ### build
 - node.js
+- electron.js
 - p5.js
 
 ### develop
@@ -28,4 +29,4 @@ npm start
     └── x.svg
 
 ### issue
-view -> reload after windows resized
+after windows resized, a refresh is recommended (view -> reload)
